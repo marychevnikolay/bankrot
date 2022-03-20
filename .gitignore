@@ -1,0 +1,10 @@
+node_modules/
+*~
+.tmp/
+app/bower/
+*.sass-cashe
+*.vi
+*.swp
+*.rej
+*.log
+*.orig
