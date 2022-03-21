@@ -4277,6 +4277,9 @@ var modals = function modals() {
   bindModal('.btn-yellow', '.popup-consultation', '.popup-consultation_close');
   bindModal('.btn-blue', '.popup-application', '.popup-application_close');
   bindModal('.btn-popup-river', '.popup-thanks', '.popup-thanks_close');
+  bindModal('.btn-tools', '.popup-consultation', '.popup-consultation_close');
+  bindModal('.btn-help', '.popup-application', '.popup-application_close');
+  bindModal('.btn-consultation', '.popup-consultation', '.popup-consultation_close');
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (modals);
