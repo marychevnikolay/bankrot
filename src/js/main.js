@@ -3,6 +3,7 @@ import modals from './modules/modals';
 import forms from './modules/forms';
 import mask from './modules/mask';
 import accordion from './modules/accordion';
+import tabs from './modules/tabs';
 
 
 
@@ -14,7 +15,8 @@ window.addEventListener('DOMContentLoaded', () => {
     modals();
     forms(modalState);
     mask('[name="phone"]');
-    accordion('.accordion-heading');
+    accordion('.accordion');
+    tabs('.report--tabs', '.report-tab', '.report-content', 'active');
    
 });
 
