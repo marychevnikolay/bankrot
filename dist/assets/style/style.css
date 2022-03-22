@@ -2991,7 +2991,7 @@ button.accordion {
 
 }
 
-@media(max-width: 320px) {
+@media(max-width: 321px) {
     .logo {
         width: 100px;
     }
