@@ -27,7 +27,7 @@ body {
     text-align: center;
 }
 .container {
-    /* position: relative; */
+    
     max-width: 1240px;
     margin: 0 auto;
 }
@@ -207,7 +207,6 @@ body {
     width: 939px;
     height: 132px;
     background: #307fe280;
-    /* opacity: 0.1; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -249,14 +248,14 @@ body {
     height: 630px;
     display: flex;
     flex-direction: column; 
-    /* justify-content: flex-end; */
+
     align-items: end;
     position: relative;
     padding-top: 160px;
 }
 .bankruptcy--text--text {
     display: flex;
-    /* justify-content: space-between; */
+
     align-items: center;
 
 }
@@ -339,7 +338,7 @@ body {
 
 .remove {
     position: relative;
-    background: url(../img/remove.png) repeat-y center center;
+    background: url(../img/remove.webp) repeat-y center center;
     margin-top: 233px;
     margin-bottom: 175px;
     height: 545px;
@@ -402,7 +401,7 @@ button.accordion.active-style {
     align-items: center;
     justify-content: center;
     color: #1E1E1E;
-    /* margin-top: 51px; */
+    
 }
 .btn-yellow:hover {
     background: #f9e547cc;
@@ -429,7 +428,6 @@ button.accordion.active-style {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     justify-content: center;
     text-align: center;
     padding-top: 94px;
@@ -619,7 +617,7 @@ button.accordion.active-style {
 .address--wrapper {
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
+
     flex-wrap: wrap;
 }
 .address--wrapper--item {
@@ -661,7 +659,7 @@ button.accordion.active-style {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* margin: 0 auto; */
+
 }
 .address--img--address {
     width: 80%;
@@ -904,7 +902,6 @@ button.accordion.active-style {
     text-align: center;
     font-size: 18px;
     background: #fff;
-    /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -942,7 +939,6 @@ button.accordion.active-style {
     font-weight: 500;
     font-size: 30px;
     line-height: 37px;
-    /* text-align: center; */
     color: #FFFFFF;
 }
 .btn-help {
@@ -959,11 +955,10 @@ button.accordion.active-style {
 }
 .btn-help:hover {
     background: #f9e547cc;
-    /* color: #ffffff; */
+
 }
 .btn-help:active {
-    background: #ffffff;
-    /* color: #1E1E1E; */
+    background: #ffffff
 }
 
 .img-ok-help {
@@ -1051,7 +1046,7 @@ button.accordion.active-style {
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: #307FE2;
-    /* transform: rotate(-90deg); */
+    
 }
 .transform {
     transform: rotate(-90deg);
@@ -1134,7 +1129,7 @@ button.accordion.active-style {
 .work--wrapper {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
+    
     justify-content: center;
     padding-top: 46px;
 }
@@ -1142,7 +1137,6 @@ button.accordion.active-style {
     display: flex;
     align-items: center;
     padding-top: 46px;
-    /* justify-content: space-between; */
 }
 .work--wrapper--item--bg {
     width: 57px;
@@ -1292,7 +1286,6 @@ button.accordion.active-style {
 .consultation--wrapper {
     display: flex;
     justify-content: space-between;
-    /* position: relative; */
 }
 .consultation--wrapper--img {
     position: relative;
@@ -1402,7 +1395,6 @@ button.accordion.active-style {
 .question--wrapper--content {
     display: flex;
     flex-direction: column;
-    /* align-items: start; */
     justify-content: center;
     position: relative;
     padding-left: 57px;
@@ -1420,16 +1412,12 @@ button.accordion {
 
 .questions--wrapper--content--accordion {
     width: 912px;
-    /* background-color: #307FE2; */
-    /* border-left: 1px solid whitesmoke;
-    border-right: 1px solid whitesmoke; */
+    
     padding: 0 20px;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-in-out;
-    /* left: 90px;
-    position: absolute;
-    top: 30px; */
+   *
 }
 .questions--wrapper--item {
     display: flex;
@@ -1490,12 +1478,11 @@ button.accordion {
 .remained--wrapper--title p {
     width: 442px;
     margin-top: 46px;
-    /* padding-top: 46px; */
+
 }
 
 .remained--wrapper--contact--tel {
     display: flex;
-    /* justify-content: center; */
     align-items: center;
 }
 .remained--wrapper--contact--tel span {
@@ -1599,7 +1586,7 @@ button.accordion {
     background: transparent;
 }
 .popup-river-title {
-    /* position: relative; */
+    
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1612,7 +1599,6 @@ button.accordion {
             align-items: start;
     width: 691px;
     height: 396px;
-    /* background: #FFFFFF; */
     border-radius: 0px 12px 12px 0px;
     padding: 40px 40px 40px 32px;
 }
@@ -1720,8 +1706,6 @@ button.accordion {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: start;
-    /* width: 691px;
-    height: 459px; */
     padding: 65px 0 70px 63px;
 }
   
@@ -1790,7 +1774,7 @@ button.accordion {
     background: transparent;
 }
 .popup-application-title {
-    /* position: relative; */
+    
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1879,7 +1863,7 @@ button.accordion {
     background: transparent;
 }
 .popup-thanks-title {
-    /* position: relative; */
+    
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2218,10 +2202,7 @@ button.accordion {
    .title-text {
        font-size: 36px;
    }
-   /* .img-money {
-        top: -60px;
-        right: -240px;
-   } */
+  
    .bankruptcy-title {
        width: 540px;
        
@@ -2401,7 +2382,7 @@ button.accordion {
     .report--video-content {
         width: 540px;
         height: 322px;
-        /* margin: 20px auto 0; */
+    
     }
     
     .text-green-bold {
@@ -2608,7 +2589,7 @@ button.accordion {
         padding-left: 60px;
     }
     .consultation--wrapper--img--text {
-        /* width: 280px; */
+        
         bottom: 170px;
         right: 30px;
     }    
@@ -2618,7 +2599,7 @@ button.accordion {
     .report--video-content {
         width: 450px;
         height: 269px;
-        /* margin: 20px auto 0; */
+        
     }
     .text-white {
         font-size: 24px;
@@ -2811,8 +2792,7 @@ button.accordion {
     }
     .img-address {
         display: none;
-        /* width: 210px;
-        margin-left: -120px; */
+        
     }
     .img-chain {
         display: none;
