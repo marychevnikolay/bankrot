@@ -32,7 +32,7 @@ body {
     margin: 0 auto;
 }
 .header {
-    background: url(../img/header-bg.jpg) no-repeat  center center;
+    background: url(../img/header-bg-min.webp) no-repeat  center center;
 }
 .header--wrapper {
     display: flex;
@@ -363,6 +363,24 @@ body {
     
     color: #FFFFFF;
 }
+.title-reg {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    text-align: center;
+    color: #000000;
+}
+button.accordion.active-style {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 29px;
+    text-align: center;
+    color: #307FE2;
+}
 .title-white {
     font-family: Montserrat;
     font-style: normal;
@@ -643,7 +661,26 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 auto;
+    /* margin: 0 auto; */
+}
+.address--img--address {
+    width: 80%;
+    height: 80%;
+    overflow: hidden;
+}
+.img-address {
+    width: 100%;
+    height: auto;
+    margin: 0 0 0 -20px;
+}
+.img-chain {
+    width: 100%;
+    height: auto;
+    margin: 0 -20px 0 0;
+}
+.address--img--consul {
+    width: 263px;
+    margin: 0 50px;
 }
 
 .text-subtitle-black {
@@ -707,6 +744,7 @@ body {
     color: #5E5E5E;
 }
 .btn-blue {
+    padding: 29.5px 0;
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
@@ -1168,7 +1206,11 @@ body {
 #title {
     display: none;
 }
-
+.report--video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .report--tabs {
     width: 100%;
@@ -1378,16 +1420,16 @@ button.accordion {
 
 .questions--wrapper--content--accordion {
     width: 912px;
-    background-color: #307FE2;
+    /* background-color: #307FE2; */
     /* border-left: 1px solid whitesmoke;
     border-right: 1px solid whitesmoke; */
     padding: 0 20px;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-in-out;
-    left: 90px;
+    /* left: 90px;
     position: absolute;
-    top: 30px;
+    top: 30px; */
 }
 .questions--wrapper--item {
     display: flex;
@@ -1405,7 +1447,7 @@ button.accordion {
     color: #FFFFFF;
 }
 .application {
-    background: url(../img/application.png) repeat-y center center;
+    background: url(../img/application-min.webp) repeat-y center center;
     margin-top: 35px;
 }
 .btn-bank {
@@ -1459,9 +1501,8 @@ button.accordion {
 .remained--wrapper--contact--tel span {
     padding-left: 30px;
 }
-.img-ques {
-    background-color: #ffffff;
-}
+
+
 .remained--wrapper--title {
     width: 673px;
 }
@@ -1855,6 +1896,11 @@ button.accordion {
 .popup-thanks-title p {
     padding-top: 20px;
 }
+@media(max-width: 1400px) {
+    .img-book {
+        margin-left: -60px;
+    }
+}
 
 
 
@@ -1888,24 +1934,12 @@ button.accordion {
     .benefit-block {
         width: 490px;
     }
-    .img-address {
-       width: 700px; 
-       margin-left: -360px;
-    }
-    .img-chain {
-        width: 700px;
-        margin-right: 10px;
-    }
-    .img-con {
-        padding: 0 60px;
-    }
+    
     .procedure--consultation {
         width: 94%;
+        margin: 52px auto 0;
     }
-    .img-book {
-        width: 700px;
-        margin-left: -230px;
-    }
+    
     .img-help {
         width: 500px;
     }
@@ -2023,16 +2057,21 @@ button.accordion {
         height: 280px;
         margin-top: 50px;
     }
+    .address--img--address {
+        width: 75%;
+        height: 75%;
+        overflow: hidden;
+    }
     .img-address {
         width: 683px;
-        margin-left: -465px;
+        margin-left: -160px;
     }
     .img-chain {
         width: 685px;
         margin-right: 10px;
     }
     .img-con {
-        padding: 0 50px;
+        padding: 0;
     }
     .procedure--wrapper--item {
         width: 360px;
@@ -2052,6 +2091,15 @@ button.accordion {
         flex-direction: column;
         justify-content: center;
     }
+    .tools--wrapper--title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+
     .img-book {
         width: 640px;
     }
@@ -2126,7 +2174,7 @@ button.accordion {
         font-size: 18px;
     }
     .img-ques {
-        margin-left: -140px;
+        margin-left: -15px;
         height: 361px;
         width: 234px;
     }    
@@ -2302,7 +2350,7 @@ button.accordion {
         width: 540px;
     }
     .consultation--wrapper--img {
-        padding-top: 360px;
+        padding-top: 260px;
         padding-left: 0px;
     }
     .consultation--wrapper--img--text {
@@ -2340,7 +2388,7 @@ button.accordion {
     }    
     .img-address {
         width: 500px;
-        margin-left: -330px;
+        margin-left: -120px;
     }
     .procedure--consultation {
         width: 540px;
@@ -2355,6 +2403,7 @@ button.accordion {
         height: 322px;
         /* margin: 20px auto 0; */
     }
+    
     .text-green-bold {
         font-size: 28px;
         line-height: 32px;
@@ -2380,7 +2429,7 @@ button.accordion {
         font-size: 24px;
     }
     .img-ques {
-        margin-left: -260px;
+        margin-left: -20px;
         height: 230px;
         width: 150px;
     }    
@@ -2518,6 +2567,9 @@ button.accordion {
     .img--tick {
         padding-left: 5px;
     }
+    .img-book {
+        margin-left: -25px;
+    }
     .cases {
         margin-top: 70px;
     }
@@ -2541,13 +2593,28 @@ button.accordion {
         text-align: center;
     }
     .consultation--wrapper--text {
-        width: 450px;
+        width: 94%;
+        margin: 45px 0 10px;
     }
     .consultation--wrapper--text p {
-        padding-top: 5px;
+        margin-top: 35px;
         width: 450px;
     }
-
+    .consultation--wrapper--img--title {
+        bottom: 85px;
+        right: 30px;
+    }
+    .consultation--wrapper--img {
+        padding-left: 60px;
+    }
+    .consultation--wrapper--img--text {
+        /* width: 280px; */
+        bottom: 170px;
+        right: 30px;
+    }    
+    .btn-consultation {
+        margin: 570px auto 0;
+    }
     .report--video-content {
         width: 450px;
         height: 269px;
@@ -2560,6 +2627,17 @@ button.accordion {
     .text-medium {
         font-size: 18px;
     }
+    .result--img--bg {
+        width: 460px;
+    }
+    .result--img--white {
+        width: 460px;
+        right: 0;
+        left: -10px;
+    }
+    .result--img {
+        width: 90%;
+    }
     .img-men {
         width: 450px;
     }
@@ -2567,13 +2645,12 @@ button.accordion {
         text-align: center;
     }
     button.accordion {
-        width: 360px;
+        width: 90%;
+        text-align: center;
     }
-
     .questions--wrapper--content--accordion {
-        width: 360px;
-        height: 70px;
-        left: 25px;
+        width: 90%;
+        height: 650px;
     }
     .title-white-bold {
         font-size: 14px;
@@ -2611,15 +2688,15 @@ button.accordion {
         top: 325px;
         right: -20px;
     }
-
-
-
-
-
-
-
-
-
+    .address--img--address {
+        display: none;
+    }
+    .address--img--consul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
 }
 @media(max-width: 480px) {
     .header--wrapper {
@@ -2666,8 +2743,11 @@ button.accordion {
         padding-top: 75px;
     }
     .img-money {
-        top: -110px;
-        right: -260px;
+        top: -230px;
+        right: -250px;
+    }
+    .img-hammer {
+        left: 160px;
     }
     .text-yellow {
         font-size: 130px;
@@ -2696,10 +2776,10 @@ button.accordion {
     .img-key {
         width: 300px;
         top: -80px;
-        left: -130px;
+        left: -95px;
     }
     .img-plane {
-        top: 170px;
+        top: 35px;
         right: -150px;
         width: 260px;
     }
@@ -2711,36 +2791,50 @@ button.accordion {
         line-height: 30px;
     }
     .btn-yellow {
-        width: 340px;
+        width: 300px;
         height: 70px;
         font-size: 14px;
         line-height: 20px;
     }
-
+    .benefit-text-left {
+        width: 280px;
+    }
     .benefit-text-text {
-        width: 340px;
+        width: 98%;
+    }
+    .text-subtitle {
+        font-size: 25px;
     }
     .benefit-block {
         margin: 10px 2px 0;
+        width: 300px;
     }
     .img-address {
-        width: 210px;
-        margin-left: -120px;
+        display: none;
+        /* width: 210px;
+        margin-left: -120px; */
     }
     .img-chain {
-        width: 210px;
+        display: none;
+    }
+    .img-con {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .text-subtitle--grey {
         font-size: 24px;
     }
     .procedure--consultation span {
-        width: 340px;
+        width: 190px;
     }
     .procedure--consultation {
-        width: 360px;
+        width: 300px;
         margin: 0 auto;
     }
-
+    .text-blue {
+        font-size: 30px;
+    }
     .procedure--wrapper {
         margin: 0 auto;
     }
@@ -2755,10 +2849,36 @@ button.accordion {
         line-height: 25px;
     }
     .img-book {
-        width: 360px;
+        width: 300px;
+        margin-left: 0px;
+    }
+    .benefit-block-blue {
+        height: 300px;
+        width: 300px;
+    }
+    .text-title-grey {
+        font-size: 11px;
+    }
+    .title-subtitle-white {
+        font-size: 16px;
+    }
+    .text-subtitle-white {
+        font-size: 13px;
+    }
+    .title-red {
+        font-size: 16px;
+    }
+    .title-subtitle-black {
+        font-size: 14px;
+    }
+    .text-subtitle-blue {
+        font-size: 16px;
+    }
+    .btn-blue {
+        width: 300px;
     }
     .btn-tools {
-        width: 340px;
+        width: 300px;
         font-size: 14px;
         line-height: 20px;
     }
@@ -2775,33 +2895,44 @@ button.accordion {
         font-size: 18px;
         line-height: 110%;
     }
+    .help--wrapper--text {
+        padding-left: 20px;
+    } 
     .remove-wrap {
         width: 320px;
     }
     .result--img--bg {
-        width: 340px;
+        width: 300px;
+        height: 400px;
+        position: relative;
+        left: -5px;
     }
     .result--img--bg p {
-        width: 334px;
+        width: 296px;
+        padding-top: 20px;
     }
     .result--img--white {
-        width: 340px;
-
+        width: 300px;
+        left: -5px;
+        position: relative;
+    }
+    .result--img img {
+        padding-left: 85px;
     }
     .text--blue {
         font-size: 24px;
     }
     .result--img--white--text{
-        width: 334px;
+        width: 296px;
     }
     .title--blue {
-        font-size: 14px;
+        font-size: 13px;
     }
     .title--grey {
-        font-size: 14px;
+        font-size: 13px;
     }
     .text-title-black {
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .text--blue {
@@ -2812,6 +2943,7 @@ button.accordion {
     }
     .text--black {
         font-size: 13px;
+        
     }
     .title-subtitle-blue {
         font-size: 18px;
@@ -2819,21 +2951,43 @@ button.accordion {
     .work--wrapper--item--img {
         padding-top: 30px;
     }
+    .work--wrapper--item {
+        flex-direction: column;
+    }
+    .work--wrapper--item--text {
+        padding-top: 22px;
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
     .report--text-company h3 {
-        width: 340px;
+        width: 90%;
     }
     .text-blue-bold {
-        font-size: 36px;
+        font-size: 32px;
     }
     .title-blue-bold {
-        font-size: 48px;
+        font-size: 42px;
+    }
+    .report--text--item-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .report--video-content {
+        width: 316px;
+        height: 189px;
     }
     .report--text--item {
         flex-direction: column;
         flex-wrap: nowrap;
         justify-content: center;
-        align-items: start;
-        padding-left: 60px;
+        align-items: center;
         padding-top: 20px;
     }
     .report--tabs--video.active, .report--tabs--text.active {
@@ -2846,36 +3000,50 @@ button.accordion {
         height: 54px;
         font-size: 20px;
     }
+    .consultation--wrapper {
+        margin: 0 auto;
+    }
     .consultation--wrapper--text {
-        width: 340px;
+        width: 92%;
+        text-align: center;
+        margin: 40px 0;
     }
     .consultation--wrapper--text p {
-        width: 340px;
+        width: 100%;
+        margin-top: 20px;
     }
     .btn-consultation {
-        width: 340px;
+        width: 300px;
         height: 70px;
         font-size: 14px;
-        margin: 390px auto 0;
+        margin: 470px auto 0;
     }
     .title-white-bold {
         font-size: 13px;
     }
-    .consultation--wrapper--img--text {
-        width: 250px;
-        bottom: 115px;
-        right: 50px;
-    }
+    .consultation--wrapper--img--title {
+        width: 265px;
+        bottom: 120px;
+        right: 0px;
+    }    
     .text-white-bold {
         font-size: 14px;
     }
     .consultation--wrapper--img--title {
         width: 265px;
-        bottom: 35px;
-        right: 30px;
+        bottom: 120px;
+        right: 0px;
     }
+    .questions--wrapper--item {
+        flex-direction: column;
+        text-align: center;
+    }
+    .question--wrapper--content {
+        padding-top: 22px;
+    }
+
     .application-title {
-        width: 340px;
+        width: 300px;
         padding-top: 45px;
     }
     .title-white-normal {
@@ -2886,6 +3054,16 @@ button.accordion {
     }
     .remained--wrapper--title {
         width: 340px;
+    }
+    .remained--wrapper--title p {
+        width: 177px;
+    }
+    .remained--wrapper--subtitle {
+        text-align: center;
+    }
+    .img-ques {
+        margin-top: 110px;
+
     }
     .text-grey-medium {
         font-size: 18px;
@@ -2900,9 +3078,12 @@ button.accordion {
         margin-top: 50px;
     }
     .footer--bg {
-        width: 350px;
+        width: 314px;
         height: 130px;
         flex-direction: column;
+    }
+    .footer--bg--text {
+        padding-left: 5px;
     }
     .footer--bg img {
         width: 38px;
@@ -2987,7 +3168,9 @@ button.accordion {
         top: 380px;
         right: 25px;
     }
-
+    .text-absolve {
+        font-size: 36px;
+    }
 
 }
 
@@ -3311,13 +3494,13 @@ button.accordion {
     }
 
     .img-ques {
-        margin-left: -90px;
+        margin-left: -25px;
         height: 100px;
         width: 70px;
     }
 
     .remained--wrapper--title p {
-        width: 280px;
+        width: 177px;
         margin-top: 20px;
     }    
     .title-blue-medium {
